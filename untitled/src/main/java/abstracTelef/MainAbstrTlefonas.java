@@ -5,15 +5,16 @@ import java.math.BigDecimal;
 public class MainAbstrTlefonas {
     public static void main(String[] args) {
 
-        Telefonas telefonas1 = new Telefonas( "8566622222 ");
+       // Telefonas telefonas1 = new Telefonas( "8566622222 ");
 
         Mobilus mob1 = new Mobilus("8600435554", "123 123 1321 32121");
 
         Taksofon taksF = new Taksofon(BigDecimal.valueOf(0.6));
 
-        telefonas1.setMelodija("dzin dzin");
+       /* telefonas1.setMelodija("dzin dzin");
         System.out.println(telefonas1);
         telefonas1.paskambink(" 84655544414");
+*/
 
         mob1.setMelodija("tra lialia");
 

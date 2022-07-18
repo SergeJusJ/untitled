@@ -11,13 +11,17 @@ public class Taksofon extends Telefonas {
 
         if (this.piniguLikutis.compareTo(SKAMB_KAINA) > -1) {
             this.piniguLikutis = this.piniguLikutis.subtract(SKAMB_KAINA); //atimti pinigu
-            super.paskambink(telNumeris);
+
+            System.out.println("Abonementas "+ super.getNumeris() + "skambina i " + telNumeris);
+//            super.paskambink(telNumeris);
+
+
         } else {
             System.out.println( "Ner pinigu - papild sask. " + this.piniguLikutis);
         }
 
 
-        super.paskambink(telNumeris);
+        //super.paskambink(telNumeris);
     }
 
     public Taksofon(BigDecimal pinigelis) {

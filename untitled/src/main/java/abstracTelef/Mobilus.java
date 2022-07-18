@@ -23,6 +23,11 @@ public class Mobilus extends Telefonas {
         nuotrSkaic++;
     }
 
+    @Override
+    public void paskambink(String telNumeris) {
+        System.out.println(super.getNumeris());
+    }
+
     public String toString() {
         return String.format("Mob. Telefonas{numeris: %s, simNr: %s, melodija: %s, nuotraukos %s}",
                 super.getNumeris(),

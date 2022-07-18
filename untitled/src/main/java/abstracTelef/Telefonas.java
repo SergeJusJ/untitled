@@ -1,6 +1,6 @@
 package abstracTelef;
 
-public class Telefonas {
+public abstract class Telefonas {
     private String numeris;
     private String melodija;
 
@@ -8,9 +8,11 @@ public class Telefonas {
         this.numeris = numeris;
     }
 
-    public void paskambink(String telNumeris){
+    public abstract void paskambink (String telNumeris);
+
+    /*public void paskambink(String telNumeris){
         System.out.println("Abonementas "+ this.numeris + "skambina i " + telNumeris);
-                    }
+                    }*/
 
     public String getNumeris() {
         return numeris;

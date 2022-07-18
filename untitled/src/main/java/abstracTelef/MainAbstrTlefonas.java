@@ -1,8 +1,8 @@
-package inheritance;
+package abstracTelef;
 
 import java.math.BigDecimal;
 
-public class MainTlefonas {
+public class MainAbstrTlefonas {
     public static void main(String[] args) {
 
         Telefonas telefonas1 = new Telefonas( "8566622222 ");
